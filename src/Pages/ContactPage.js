@@ -5,40 +5,7 @@ import BouncingBalls from '../BouncingBalls';
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-// import ShootingStar from '../ShootingStar';
-// import Logov from '../assets/home-bgvideo.mp4';
-// import Carousel from 'react-bootstrap/Carousel';
-// import CarouselImage1 from '../assets/cosmetics.png';
-// import CarouselImage2 from '../assets/hotel.png';
-// import CarouselImage3 from '../assets/necklace.png';
-// import CarouselImage4 from '../assets/pizza.png';
-// import CarouselImage5 from '../assets/coffe.png';
-// import CarouselImage6 from '../assets/clothes.png';
-import C1 from '../assets/C1.png';
-import C2 from '../assets/C2.png';
-import C3 from '../assets/C3.png';
-import C4 from '../assets/C4.png';
-import C5 from '../assets/C5.png';
-import F1 from '../assets/F1.png';
-import F2 from '../assets/F2.png';
-import F3 from '../assets/F3.png';
-import F4 from '../assets/F4.png';
-import F5 from '../assets/F5.png';
-import J1 from '../assets/J1.png';
-import J2 from '../assets/J2.png';
-import J3 from '../assets/J3.png';
-import J4 from '../assets/J4.png';
-import J5 from '../assets/J5.png';
-import J6 from '../assets/J6.png';
-import J7 from '../assets/J7.png';
-import H1 from '../assets/H1.png';
-import H2 from '../assets/H2.png';
-import H3 from '../assets/H3.png';
-import H4 from '../assets/H4.png';
-import H5 from '../assets/H5.png';
-import H6 from '../assets/H6.png';
-import H7 from '../assets/H7.png';
-import H8 from '../assets/H8.png';
+
 
 // import CarouselImage6 from '../assets/clothes.png';
 import Button from 'react-bootstrap/Button';
@@ -93,6 +60,7 @@ const Templatepage = () => {
   }, []); // Empty dependency array to run effect only once
   
   return (
+    <div className='contact'>
     <div className='template-page'>
 
       <div className='c-slide1'>
@@ -133,6 +101,8 @@ const Templatepage = () => {
           </Button></Link>
       </div>
     </div>
+    </div>
+
   );
 };
 

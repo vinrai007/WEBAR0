@@ -43,7 +43,8 @@ const Homepage = () => (
 
         {/* </div> */}
         <div className='slide2'>
-                  <h1>A New way of Catering Service awaits <span className='you'>"You"</span>
+                  <h1>A  Service like <br/>
+                    <span className='youu'>"Never Before"</span> <br/>
                 {/* <br/>Better For Everyone  */} stay tuned to know more!!
             </h1>
             {/* <h1>Better For Everyone </h1> */}
@@ -58,9 +59,9 @@ const Homepage = () => (
           Reach out to everyone and anyone around the world 
         </span>
       </h1>
-                  <Link to="/register">
+                  <Link to="/Contact">
                     <Button variant="dark" >
-                                           Register
+                                           Conatact Us
           </Button></Link>      
     </div>
     </div>
