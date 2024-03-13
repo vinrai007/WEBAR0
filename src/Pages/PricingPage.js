@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 // import './Homepage.css'; // Import the CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Homepage = () => (
+const PricingPage = () => (
     <div className='home-page'>
         <div className="video-container">
       <video autoPlay muted loop id="bgVideo">
@@ -33,8 +33,8 @@ const Homepage = () => (
             </h1>
             {/* <h1>Better For Everyone </h1> */}
             
-            {/* <h2> by <a href='https://vinayak-rai.onrender.com/'>VINAYAK RAI</a></h2> */}
-            <h4 className='home4'>WBAR, a  website creation agency, committed to transforming your online presence into a captivating and engaging experience for your audience.</h4>      
+            <h2> by <a href='https://vinayak-rai.onrender.com/'>VINAYAK RAI</a></h2>
+            <h4>Stay tuned to know more!</h4>      
         </div>      
 
         {/* </div> */}
@@ -102,12 +102,12 @@ const Homepage = () => (
           Reach out to everyone and anyone around the world 
         </span>
       </h1>
-                  <Link to="/Contact">
+                  <Link to="/register">
                     <Button variant="dark" >
-                                           Contact Us
+                                           Register
           </Button></Link>      
     </div>
     </div>
 );
 
-export default Homepage;
+export default PricingPage;
