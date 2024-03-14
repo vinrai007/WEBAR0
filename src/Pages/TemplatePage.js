@@ -53,7 +53,7 @@ const Templatepage = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      const words = ['Scale', 'Worth','Vision', 'Value', 'Capabilities', 'Potential', 'genius', 'radiance', 'power'];
+      const words = ['Scale', 'Worth','Vision', 'Value', 'Potential', 'genius', 'radiance', 'power'];
       const randomIndex = Math.floor(Math.random() * words.length);
       setRandomWord(words[randomIndex]);
             setKey(prevKey => prevKey + 1);
@@ -67,7 +67,7 @@ const Templatepage = () => {
     <div className='template-page'>
 
       <div className='t-slide1'>
-            <BouncingBalls numBalls={dxx} />
+            {/* <BouncingBalls numBalls={dxx} /> */}
 
         <h1>We Offer Custom Services to all sorts of businesses, Explore these and
           <br />Realise your true <span className='youu'  key={key}>

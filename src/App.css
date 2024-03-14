@@ -335,6 +335,7 @@ margin-left: auto;  /* padding: 10px; */
     color: black;
       font-size: 100%;
 }
+
 .t-slide1 span{
   color: #15F5BA;
 }
@@ -466,7 +467,32 @@ padding-top: 30px;
   position: absolute;
   width: 100%;
   background-color: #1F4172;
+  background-image: url(../src/assets/agency1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Ensure the background image doesn't repeat */
+  background-position: center;
+  background-position: center bottom 100%;
+  /* Center the background image */
 }
+
+/* Remove this rule as it's unnecessary */
+
+.t-slide1 img {
+  margin-top: 1000px;
+  padding-top: 10%;
+  top: 10%
+}
+
+
+/* Remove this rule as it's unnecessary */
+/*
+.t-slide1 img {
+  object-fit: cover;
+  max-width: 10px;
+  height: 10px;
+}
+*/
 .t-slide1 h1 {
   position: relative;
   z-index: 2;

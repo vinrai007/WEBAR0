@@ -64,7 +64,7 @@ const Templatepage = () => {
     <div className='template-page'>
 
       <div className='c-slide1'>
-            <BouncingBalls numBalls={dxx} />
+            {/* <BouncingBalls numBalls={dxx} /> */}
         <h1>Get in Touch
                   <br />Realise your true <br/>
                   <span className='youu' key={key}>
