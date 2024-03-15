@@ -6,13 +6,13 @@ const Footer = () => {
       <footer className="footer">
           <div className='footer-page'>
       <div className="footer-block">
-        <p>2024 © WBAR LLC</p>
+        <p>2024 © WEBIAR LLC</p>
               </div>
                     <div className="footer-block">
         <p>Terms and Privacy policy</p>
       </div>
       <div className="footer-block">
-        <p className='webar'>Developed by <a href='https://wbar.onrender.com/'  >WEBAR</a></p>
+        <p className='webar'>Developed by <a href='https://wbar.onrender.com/'  >WEBIAR</a></p>
       </div>
       <div className="footer-block">
         {/* <p>Follow us:</p> */}

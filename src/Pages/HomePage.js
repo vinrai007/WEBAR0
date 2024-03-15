@@ -34,7 +34,7 @@ const Homepage = () => (
             {/* <h1>Better For Everyone </h1> */}
             
             {/* <h2> by <a href='https://vinayak-rai.onrender.com/'>VINAYAK RAI</a></h2> */}
-            <h4 className='home4'>WBAR, a  website creation agency, committed to transforming your online presence into a captivating and engaging experience for your audience.</h4>      
+            <h4 className='home4'>WEBIAR, a  website creation agency, committed to transforming your online presence into a captivating and engaging experience for your audience.</h4>      
         </div>      
 
         {/* </div> */}

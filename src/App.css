@@ -226,6 +226,10 @@ margin-left: auto;  /* padding: 10px; */
   color: white;
   padding: 15px 30px;
 }
+.header img{
+  height: 30px;
+  margin-bottom: 5px;
+}
 /* @media (max-width: 600px) {
   .header .bg-body-tertiary {
     padding-left: 0;

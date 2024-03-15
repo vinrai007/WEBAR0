@@ -27,7 +27,7 @@ const Homepage = () => (
         </div>
         <div className='slide1'>
             <h1> 
-                <br/><span className='you'>WBAR </span>
+                <br/><span className='you'>WEBIAR </span>
             </h1>
             {/* <h1>Better For Everyone </h1> */}
             
@@ -42,7 +42,7 @@ const Homepage = () => (
 
             {/* <h1>Better For Everyone </h1> */}
             <h4>
-                Welcome to WBAR, where creativity meets technology, and visions become vibrant digital realities. As a website creation agency, we are committed to transforming your online presence into a captivating and engaging experience for your audience.
+                Welcome to WEBIAR, where creativity meets technology, and visions become vibrant digital realities. As a website creation agency, we are committed to transforming your online presence into a captivating and engaging experience for your audience.
 <br/>
             </h4>
       <h2 className='mission'>
@@ -51,14 +51,14 @@ const Homepage = () => (
 
             </h2>
             <h4>
-Our mission at WBAR is simple: to empower businesses and individuals with cutting-edge digital solutions that drive growth and success. We strive to exceed expectations by delivering high-quality websites that not only impress but also inspire action.
+Our mission at WEBIAR is simple: to empower businesses and individuals with cutting-edge digital solutions that drive growth and success. We strive to exceed expectations by delivering high-quality websites that not only impress but also inspire action.
 
             </h4>
     </div>
         <div className='a-slide3'>
             <h1>
                 <span className='your'>
-                                    Why Choose WBAR?
+                                    Why Choose WEBIAR?
 
                 </span>
 </h1>

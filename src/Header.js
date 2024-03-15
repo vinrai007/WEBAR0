@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from "react-router-dom";
-
+import LogoS from "../src/assets/WEBIAR_logo.png"
 
 
 function Header() {
@@ -16,7 +16,11 @@ function Header() {
       {[ 'lg'].map((expand) => (
         <Navbar bg="black" data-bs-theme="dark" key={expand} expand={expand} className="/*bg-body-tertiary*/ mb-3 bg" >
           <Container fluid>
-            <Navbar.Brand href="#">WEBAR</Navbar.Brand>
+
+            <Navbar.Brand href="#">
+                                  <img src={LogoS} alt="" />
+
+              WEBIAR</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -25,7 +29,7 @@ function Header() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  WBAR
+                  WEBIAR
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
